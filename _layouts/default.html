@@ -3,6 +3,11 @@
 
   {% include head.html %}
 
+  <script>
+  $(document).ready(function () {
+  Barba.Pjax.start();
+  });
+  </script>
 
   {% if site.theme_mode == 'markdown' %}
   <body class="hack">
@@ -12,28 +17,21 @@
   <body class="hack dark">
   {% endif %}
 
-    {% include github-ribbon.html %}
-
-    <div class="container">
-      <div class="grid">
-        <aside class="cell -5of12  page-title">
-              <h1>CCWKLY</h1>
-              <div class="tagline">
-                <h5>Doing things, making things, celebrating things, and supporting things in Corpus Christi, TX [this week].
-              </div>
-        </aside>
-
-        <main class="cell -7of12">
-          {{ content }}
-        </main>
-      </div>
 
 
-    {% include footer.html %}
-    </div>
+  <div id="barba-wrapper">
+    <div class="barba-container">
 
-    <!-- Prism.js -->
-    <script src="https://npmcdn.com/prismjs@1.5.1/prism.js"></script>
-  </body>
+{{ content }}
 
-</html>
+</div>
+</div>
+
+
+
+      {% include footer.html %}
+      {% include js.html %}
+
+    </body>
+
+  </html>

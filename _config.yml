@@ -10,7 +10,7 @@ title: CCWKLY
 description: Doing things, making things, supporting things, hosting things, celebrating things, and going to things in Corpus Christi, TX [this week].
 repository: https://github.com/mollympierce1/ccwkly
 baseurl:   # the subpath of your site, e.g. /blog
-url: http://127.0.0.1:4000  # the base hostname & protocol for your site
+url: http://ccwkly.com/ # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
