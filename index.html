@@ -1,0 +1,19 @@
+---
+layout: home
+---
+
+<div class="home-post">
+  {% for post in site.posts %}
+  <div class="media-body">
+    <div class="media-heading">
+      <span><a href="{{ post.url | prepend: site.baseurl }}" title="{{ project.name }}">{{ post.title }}</a></span>
+    </div>
+    <div class="media-content">
+      {{ post.content }}
+    </div>
+  </div>
+  {% endfor %}
+  <div class="yay-events">
+    <h1><a href="{{ 'subscribe.html' | prepend: baseurl }}">WE &hearts; CC</a></h1>
+  </div>
+</div>

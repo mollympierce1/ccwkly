@@ -1,0 +1,18 @@
+<script>
+// Note, we are purposely binding our listener on the document object
+// so that we can intercept any anchors added in future.
+document.addEventListener('click', function(e) {
+  var el = e.target;
+
+  // Go up in the nodelist until we find a node with .href (HTMLAnchorElement)
+  while (el && !el.href) {
+    el = el.parentNode;
+  }
+
+  if (el) {
+    e.preventDefault();
+    return;
+  }
+});
+
+</script>
