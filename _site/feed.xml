@@ -3,10 +3,10 @@
   <channel>
     <title>CCWKLY</title>
     <description>Doing things, making things, supporting things, hosting things, celebrating things, and going to things in Corpus Christi, TX [this week].</description>
-    <link>http://127.0.0.1:4000</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2016 20:24:34 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2016 20:24:34 -0500</lastBuildDate>
+    <link>http://ccwkly.com/</link>
+    <atom:link href="http://ccwkly.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 15 Nov 2016 18:42:55 -0600</pubDate>
+    <lastBuildDate>Tue, 15 Nov 2016 18:42:55 -0600</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -27,8 +27,8 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. &lt;a href=&quot;#&quot;&gt;Learn More&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Dec 2013 18:18:23 -0600</pubDate>
-        <link>http://127.0.0.1:4000/ruby/2013/12/22/October-27-November-5.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/ruby/2013/12/22/October-27-November-5.html</guid>
+        <link>http://ccwkly.com//ruby/2013/12/22/October-27-November-5.html</link>
+        <guid isPermaLink="true">http://ccwkly.com//ruby/2013/12/22/October-27-November-5.html</guid>
         
         
         <category>ruby</category>
